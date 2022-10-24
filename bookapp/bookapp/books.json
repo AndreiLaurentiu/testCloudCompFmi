@@ -1,0 +1,23 @@
+{
+    "0": {
+        "title": "The Great Gatsby",
+        "author": "Scott Fitzgerald",
+        "publisher": "Penguin Readers",
+        "pages": "208",
+        "image": "gatsby.jpg"
+    },
+    "1": {
+        "title": "Anna Karenina",
+        "author": "Lev Tolstoi",
+        "publisher": "The Russian Messenger",
+        "pages": "864",
+        "image": "anna.jpg"
+    },
+    "2": {
+        "title": "1984",
+        "author": "George Orwell",
+        "publisher": "Secker & Warburg",
+        "pages": "328",
+        "image": "1984.jpg"
+    }
+}

@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>{% block title %}Add book{% endblock %}</h1>
+<form method="post" action="{{ url_for ('book_list') }}" enctype="multipart/form-data">
+  <label for="title">Title</label><br>
+  <input type="text" name="title" placeholder="The Great Gatsby" value="{{ request.form['title'] }}"></input><br>
+
+  <label for="author">Author</label><br>
+  <input type="text" name="author" placeholder="Scott Fitzgerald" value="{{ request.form['author'] }}"></input><br>
+
+  <label for="publisher">Publisher</label><br>
+  <input type="text" name="publisher" placeholder="Penguin Readers" value="{{ request.form['publisher'] }}"></input><br>
+
+  <label for="pages">Pages</label><br>
+  <input type="text" name="pages" placeholder="208" value="{{ request.form['pages'] }}"></input><br>
+
+  <label for="image">Image</label>
+  <input type="file" name="image" }}"></input><br>
+
+  <button type="submit">Submit</button>
+</form>
+{% endblock %}
